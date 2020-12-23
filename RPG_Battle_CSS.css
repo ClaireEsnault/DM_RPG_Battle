@@ -1,12 +1,14 @@
 body{
 	background-image: url(Background.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top;
 }
 
 .Monstres{
 	display: flex;
 	justify-content: space-around;
+	
+	margin-right: 270px;
 }
 
 .Monstre1{
@@ -34,6 +36,9 @@ body{
 .infobulles{
 	display: flex;
 	justify-content: space-around;
+	margin-right: 270px;
+	margin-left: 270px;
+	margin-top: 200px;
 }
 
 .infobulle1{
@@ -41,7 +46,6 @@ body{
 	border: 2px solid black;
 	height: 20px;
 	width: 130px;
-	margin-left: 270px;	
 }
 
 .infobulle2{
@@ -64,7 +68,9 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-left: 270px;
 	border: 2px solid red;
+	margin-left: 305px;
+	margin-top: 340px;
+	background-color: red;
 
 }
