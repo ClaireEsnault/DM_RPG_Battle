@@ -5,13 +5,8 @@ body{
 }
 
 .Monstres{
-	height: 350px;
-	width: 500px;
 	display: flex;
-	flex-direction: column;
-	align-content: center center;
-	flex-wrap: wrap;
-	margin-left: 270px;
+	justify-content: space-around;
 }
 
 .Monstre1{
@@ -19,27 +14,21 @@ body{
 	width: 200px;
 	display: flex;
 	border: 2px solid red;
-	
+	margin-left: 270px;
 }
 
 .Monstre2{
-	height: 300px;
-	width: 400px;
+	height: 150px;
+	width: 200px;
 	display: flex;
+	border: 2px solid red;
 }
 
 .Monstre3{
-	height: 300px;
-	width: 400px;
+	height: 150px;
+	width: 200px;
 	display: flex;
-}
-
-.Aventuriers{
-	height: 100px;
-	width: 500px;
-	display: flex;
-	align-content: space-between;
-	flex-wrap: wrap;
+	border: 2px solid red;
 }
 
 .infobulles{
@@ -52,9 +41,8 @@ body{
 	border: 2px solid black;
 	height: 20px;
 	width: 130px;
-	
+	margin-left: 270px;	
 }
-
 
 .infobulle2{
 	display: flex;
@@ -63,7 +51,6 @@ body{
 	width: 130px;
 }
 
-
 .infobulle3{
 	display: flex;
 	border: 2px solid black;
@@ -71,3 +58,13 @@ body{
 	width: 130px;
 }
 
+.Aventuriers{
+	height: 50px;
+	width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 270px;
+	border: 2px solid red;
+
+}
