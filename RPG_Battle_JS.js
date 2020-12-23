@@ -9,7 +9,7 @@ var soin = document.getElementById("AttaqueSpé3")
 var glace = document.getElementById("AttaqueSpé4")
 
 monstre1.onmouseover = function(){
-	document.getElementById("infobulle1").style.visibility = "visible"
+	document.getElementById("infobulle1").style.visibility = "visible" 
 }
 
 monstre2.onmouseover = function(){
