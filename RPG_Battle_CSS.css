@@ -15,9 +15,10 @@ body{
 }
 
 .Monstre1{
-	height: 300px;
-	width: 400px;
+	height: 150px;
+	width: 200px;
 	display: flex;
+	border: 2px solid red;
 	
 }
 
@@ -41,11 +42,17 @@ body{
 	flex-wrap: wrap;
 }
 
+.infobulles{
+	display: flex;
+	justify-content: space-around;
+}
+
 .infobulle1{
 	display: flex;
 	border: 2px solid black;
 	height: 20px;
 	width: 130px;
+	
 }
 
 
@@ -63,3 +70,4 @@ body{
 	height: 20px;
 	width: 130px;
 }
+
