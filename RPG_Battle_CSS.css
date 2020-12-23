@@ -1,0 +1,65 @@
+body{
+	background-image: url(Background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.Monstres{
+	height: 350px;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	align-content: center center;
+	flex-wrap: wrap;
+	margin-left: 270px;
+}
+
+.Monstre1{
+	height: 300px;
+	width: 400px;
+	display: flex;
+	
+}
+
+.Monstre2{
+	height: 300px;
+	width: 400px;
+	display: flex;
+}
+
+.Monstre3{
+	height: 300px;
+	width: 400px;
+	display: flex;
+}
+
+.Aventuriers{
+	height: 100px;
+	width: 500px;
+	display: flex;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+
+.infobulle1{
+	display: flex;
+	border: 2px solid black;
+	height: 20px;
+	width: 130px;
+}
+
+
+.infobulle2{
+	display: flex;
+	border: 2px solid black;
+	height: 20px;
+	width: 130px;
+}
+
+
+.infobulle3{
+	display: flex;
+	border: 2px solid black;
+	height: 20px;
+	width: 130px;
+}
