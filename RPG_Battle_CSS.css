@@ -39,6 +39,8 @@ body{
 	margin-right: 270px;
 	margin-left: 270px;
 	margin-top: 200px;
+	background-color: white;
+	visibility: hidden;
 }
 
 .infobulle1{
